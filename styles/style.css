@@ -1,12 +1,30 @@
-nav {
-  float:right;
+.container {
+  margin: auto;
+  overflow: auto;
+  text-decoration: none;
+  color: grey;
+  background-color: #fafafa;
 }
 
 header {
+  margin-top: 13px;
   padding: 0 30px;
   font-size: 20px;
 }
 
+nav {
+  float:right;
+
+}
+
 a {
   padding: 0 20px;
+  text-decoration: none;
+  color: grey;
+}
+
+section {
+  height: 250px;
+  text-align: center;
+  padding-top: 50%;
 }
