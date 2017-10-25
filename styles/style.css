@@ -24,7 +24,8 @@ a {
 }
 
 section {
-  height: 250px;
-  text-align: center;
-  padding-top: 50%;
+  height: 500px;
+  background-image: url("../images/background.jpg");
+  background-position: center;
+  background-size: cover;
 }
