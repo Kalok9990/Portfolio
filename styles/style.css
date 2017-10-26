@@ -1,4 +1,5 @@
 .container {
+  width: 100%;
   margin: auto;
   overflow: auto;
   text-decoration: none;
@@ -6,14 +7,17 @@
   background-color: #fafafa;
 }
 
-header {
-  margin: 13px;
-  padding: 0 30px;
-  font-size: 25px;
+.navbar-inverse {
+  background-color: #fafafa;
+  border-color: #fafafa;
 }
 
-nav {
-  float:right;
+.navbar-inverse .navbar-nav>.active>a {
+  background-color: #fafafa;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: black;
 }
 
 a {
@@ -22,9 +26,18 @@ a {
   color: grey !important;
 }
 
+.row {
+  height: 300px;
+  background-color: #bfbbbb;
+}
+
+#profile {
+
+}
+
 section {
   width: 100%;
-  height: 500px;
+  height: 300px;
   background-image: url("../images/background1.jpg");
   background-position: center;
   background-size: cover;
@@ -80,8 +93,14 @@ ul {
   color: black !important;
 }
 
-@media screen and (max-width: 480px) {
-  .prof img {
-    position: relative;
+@media screen and (max-width: 700px) {
+
+  section {
+    display: none;
   }
+
+  .prof img {
+    float: none;
+  }
+
 }
