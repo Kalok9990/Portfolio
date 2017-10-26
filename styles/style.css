@@ -14,13 +14,12 @@ header {
 
 nav {
   float:right;
-
 }
 
 a {
   padding: 0 20px;
   text-decoration: none;
-  color: grey;
+  color: grey !important;
 }
 
 section {
@@ -36,7 +35,7 @@ section {
 }
 
  img {
-   display: inline-block;
+  display: inline-block;
   float: right;
   width: 200px;
  }
@@ -56,6 +55,7 @@ ul {
 
 .btn {
   border: none;
+  background: transparent;
 }
 
 .fa:hover {
@@ -65,7 +65,7 @@ ul {
 .fa {
   padding: 20px;
   font-size: 40px;
-  width: 15px;
+  width: 55px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%
@@ -73,10 +73,16 @@ ul {
 
 .fa-facebook {
   background: #3B5998;
-  color: white;
+  color: white !important;
 }
 
 .fa-linkedin {
   background: #007bb5;
-  color: white;
+  color: white !important;
+}
+
+.fa-github {
+  background-image: url("../images/github.png");
+  color: black !important;
+
 }
