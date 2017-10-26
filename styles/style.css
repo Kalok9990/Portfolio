@@ -96,20 +96,12 @@ ul {
 
 .container2 {
   margin: auto;
-  width: 75%;
+  width: 75;
   height: 600px;
 }
 
 h2 {
   text-align: center;
-}
-
-.carousel-inner{
-  height: 600px;
-}
-
-.carousel-inner .img .active{
-  height: 50%;
 }
 
 @media screen and (max-width: 700px) {
@@ -120,6 +112,10 @@ h2 {
 
   .prof img {
     float: none;
+  }
+
+  .line {
+    display: none;
   }
 
 }
