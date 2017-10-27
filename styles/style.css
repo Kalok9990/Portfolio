@@ -98,6 +98,10 @@ ul {
   height: 600px;
 }
 
+.item img {
+  margin: auto;
+}
+
 h2 {
   text-align: center;
 }
