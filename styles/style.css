@@ -103,7 +103,6 @@ h2 {
 }
 
 @media screen and (max-width: 700px) {
-
   section {
     display: none;
   }
@@ -115,6 +114,4 @@ h2 {
   .line {
     width: 50%;
   }
-
-
 }
