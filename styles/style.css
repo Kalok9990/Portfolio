@@ -28,7 +28,6 @@ a {
 
 .row {
   height: auto;
-  background-color: #bfbbbb;
 }
 
 .line {
@@ -56,7 +55,6 @@ section {
 
 .prof {
   text-align: center;
-  margin-top: 100px;
 }
 
 ul {
@@ -96,7 +94,7 @@ ul {
 
 .container2 {
   margin: auto;
-  width: 75;
+  width: 75%;
   height: 600px;
 }
 
@@ -115,7 +113,8 @@ h2 {
   }
 
   .line {
-    display: none;
+    width: 50%;
   }
+
 
 }
